@@ -1,9 +1,36 @@
-<html>
-    <head>
-        <title>contact</title>
-    </head>
-    <body>
-        <h1>contact</h1>
-    </body>
-   
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Contact saya</title>
+</head>
+<body>
+    <header>
+        <h1>Contact saya</h1>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="pesanan">Pesanan:</label>
+                <input type="pesanan" id="pesanan" name="pesanan" required>
+
+                <label for="opsional">opsional:</label>
+                <textarea id="opsional" name="opsional" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>@amilatussholehah6@gmail.com</p>
+    </footer>
+</body>
 </html>

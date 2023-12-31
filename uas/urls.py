@@ -5,7 +5,7 @@ from toko.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
-    path('home/', home, name='home'),
+    path('profile/', profile, name='profile'),
     path('product/', product, name='product'),
     path('contact/', contact, name='contact'),
 ]
