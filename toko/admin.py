@@ -4,6 +4,6 @@ from .models import Toko
 # Register your models here.
 
 class MemberToko():
-    list_display = ("Nama_buah","Jumlah", "Harga")
+    list_display = ("product","kualitas", "Harga")
 
 admin.site.register(Toko)
